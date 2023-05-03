@@ -91,7 +91,7 @@ sr.reveal(".project-img", { interval: 200 });
   }
 
 
-  var messageArr = ["MERN Developer", "Frontend Developer", "Backend Developer"];
+  var messageArr = ["Software Developer", "Frontend Developer", "Backend Developer"];
   var textPosition = 0;
   var speed = 200;
 
