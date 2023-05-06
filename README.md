@@ -213,3 +213,121 @@
  <img width="1440" alt="Screenshot 2023-05-06 at 8 09 12 PM" src="https://user-images.githubusercontent.com/35608135/236630920-6e61d548-538b-4675-8a95-1eab9cd012e4.png">
 
 <img width="1440" alt="Screenshot 2023-05-06 at 8 12 14 PM" src="https://user-images.githubusercontent.com/35608135/236630962-60b4c591-b2b3-4c25-b951-7e4174958f0e.png">
+
+
+# Deploy Log 
+
+# Version Update 3.0v
+10:30:12 PM: build-image version: cd0a67ec27b8bcd87e2a257fe5ebcf1900a8021d (focal)
+10:30:12 PM: buildbot version: f3871d4c438bbd4f48a8f44a50bec7489430735e
+10:30:12 PM: Fetching cached dependencies
+10:30:12 PM: Starting to download cache of 207.1MB
+10:30:13 PM: Finished downloading cache in 1.529s
+10:30:13 PM: Starting to extract cache
+10:30:15 PM: Finished extracting cache in 1.135s
+10:30:15 PM: Finished fetching cache in 2.734s
+10:30:15 PM: Starting to prepare the repo for build
+10:30:15 PM: Preparing Git Reference refs/heads/main
+10:30:15 PM: Parsing package.json dependencies
+10:30:16 PM: Starting to install dependencies
+10:30:16 PM: Python version set to 3.8
+10:30:16 PM: Attempting Ruby version 2.7.2, read from environment
+10:30:17 PM: Using Ruby version 2.7.2
+10:30:17 PM: Started restoring cached go cache
+10:30:17 PM: Finished restoring cached go cache
+10:30:17 PM: Installing Go version 1.19.5 (requested 1.19.5)
+10:30:22 PM: go version go1.19.5 linux/amd64
+10:30:22 PM: Using PHP version 8.0
+10:30:23 PM: Started restoring cached Node.js version
+10:30:23 PM: Finished restoring cached Node.js version
+10:30:24 PM: v16.20.0 is already installed.
+10:30:24 PM: Now using node v16.20.0 (npm v8.19.4)
+10:30:24 PM: Enabling Node.js Corepack
+10:30:24 PM: Started restoring cached build plugins
+10:30:24 PM: Finished restoring cached build plugins
+10:30:24 PM: Install dependencies script success
+10:30:24 PM: Starting build script
+10:30:25 PM: Detected 0 framework(s)
+10:30:25 PM: Section completed: initializing
+10:30:26 PM: ​
+10:30:26 PM:   Netlify Build                                                 
+10:30:26 PM: ────────────────────────────────────────────────────────────────
+10:30:26 PM: ​
+10:30:26 PM: ❯ Version
+10:30:26 PM:   @netlify/build 29.10.1
+10:30:26 PM: ​
+10:30:26 PM: ❯ Flags
+10:30:26 PM:   baseRelDir: true
+10:30:26 PM:   buildId: 64568798e6bf1d0008ed2f66
+10:30:26 PM:   deployId: 64568798e6bf1d0008ed2f68
+10:30:26 PM: ​
+10:30:26 PM: ❯ Current directory
+10:30:26 PM:   /opt/build/repo
+10:30:26 PM: ​
+10:30:26 PM: ❯ Config file
+10:30:26 PM:   No config file was defined: using default values.
+10:30:26 PM: ​
+10:30:26 PM: ❯ Context
+10:30:26 PM:   production
+10:30:26 PM: ​
+10:30:26 PM: ❯ Loading plugins
+10:30:26 PM:    - @netlify/plugin-lighthouse@4.1.1 from Netlify app
+10:30:28 PM: ​
+10:30:28 PM:   1. @netlify/plugin-lighthouse (onPostBuild event)             
+10:30:28 PM: ────────────────────────────────────────────────────────────────
+10:30:28 PM: ​
+10:30:28 PM: Generating Lighthouse report. This may take a minute…
+10:30:28 PM: Running Lighthouse on ./
+10:30:28 PM: Serving and scanning site from directory .
+10:30:42 PM: Lighthouse scores for ./
+10:30:42 PM: - Performance: 0
+10:30:42 PM: - Accessibility: 89
+10:30:42 PM: - Best Practices: 92
+10:30:42 PM: - SEO: 92
+10:30:42 PM: - PWA: 30
+10:30:42 PM: ​
+10:30:42 PM: (@netlify/plugin-lighthouse onPostBuild completed in 13.8s)
+10:30:42 PM: ​
+10:30:42 PM:   2. Deploy site                                                
+10:30:42 PM: ────────────────────────────────────────────────────────────────
+10:30:42 PM: ​
+10:30:42 PM: Starting to deploy site from '/'
+10:30:42 PM: Calculating files to upload
+10:30:42 PM: 1 new files to upload
+10:30:42 PM: 0 new functions to upload
+10:30:42 PM: Section completed: deploying
+10:30:42 PM: Site deploy was successfully initiated
+10:30:42 PM: ​
+10:30:42 PM: (Deploy site completed in 667ms)
+10:30:43 PM: Starting post processing
+10:30:43 PM: ​
+10:30:43 PM:   Netlify Build Complete                                        
+10:30:43 PM: ────────────────────────────────────────────────────────────────
+10:30:43 PM: Post processing - HTML
+10:30:43 PM: ​
+10:30:43 PM: (Netlify Build completed in 16.3s)
+10:30:43 PM: Post processing - header rules
+10:30:43 PM: Caching artifacts
+10:30:43 PM: Post processing - redirect rules
+10:30:43 PM: Started saving build plugins
+10:30:43 PM: Finished saving build plugins
+10:30:43 PM: Started saving pip cache
+10:30:43 PM: Post processing done
+10:30:43 PM: Finished saving pip cache
+10:30:43 PM: Started saving emacs cask dependencies
+10:30:43 PM: Finished saving emacs cask dependencies
+10:30:43 PM: Section completed: postprocessing
+10:30:43 PM: Started saving maven dependencies
+10:30:43 PM: Finished saving maven dependencies
+10:30:43 PM: Started saving boot dependencies
+10:30:43 PM: Finished saving boot dependencies
+10:30:43 PM: Started saving rust rustup cache
+10:30:43 PM: Finished saving rust rustup cache
+10:30:43 PM: Started saving go dependencies
+10:30:43 PM: Finished saving go dependencies
+10:30:43 PM: Build script success
+10:30:43 PM: Section completed: building
+10:30:44 PM: Site is live ✨
+10:30:44 PM: Uploading Cache of size 207.1MB
+10:30:46 PM: Section completed: cleanup
+10:30:46 PM: Finished processing build request in 33.935s
