@@ -331,3 +331,13 @@
 10:30:44 PM: Uploading Cache of size 207.1MB
 10:30:46 PM: Section completed: cleanup
 10:30:46 PM: Finished processing build request in 33.935s
+
+
+#✅ Deploy Preview for nirmalyamondal ready!
+.Name	Link
+🔨 Latest commit	dc9b60a
+🔍 Latest deploy log	https://app.netlify.com/sites/nirmalyamondal/deploys/6457a75c7689dc000837e596
+😎 Deploy Preview	https://deploy-preview-3--nirmalyamondal.netlify.app
+📱 Preview on mobile	
+Toggle QR Code...
+
