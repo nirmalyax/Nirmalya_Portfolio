@@ -1,6 +1,10 @@
 # Nirmalya_Portfolio
  My Portfolio
  Created by Nirmalya Mondal
+ 
+ #Performance of the website
+ <img width="1440" alt="Screenshot 2023-05-08 at 11 26 45 PM" src="https://user-images.githubusercontent.com/35608135/236896279-4f6a2658-c905-4630-8bc9-754b60f30345.png">
+
 
  About the License
 # Apache License
